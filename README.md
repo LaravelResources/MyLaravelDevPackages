@@ -11,4 +11,6 @@
 cd [path\to\parentfolder]
 7z -ttar a dummy %cd%\* -so | 7z -si -tgzip a [name of file].tgz
 7z -ttar a dummy %cd%\* -so | 7z -si -tgzip a Timeshow.tgz
+7z -ttar a dummy %cd%\[foldername] -so | 7z -si -tgzip a [name of file].tgz
+7z -ttar a dummy %cd%\Timeshow -so | 7z -si -tgzip a Timeshow.tgz
 ```
