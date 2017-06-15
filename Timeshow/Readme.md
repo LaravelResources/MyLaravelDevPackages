@@ -12,7 +12,8 @@
 Custom\Timeshow\TimeshowServiceProvider::class,
 ```
 
-#### Step 4. Run the below command to autoload the dependency files with composer.
+#### Step 4. Run the below command to autoload the dependency files with composer & restart the Artisan sub-server.
 ```cmd
 composer dump-autoload -o
+php artisan serve
 ```
