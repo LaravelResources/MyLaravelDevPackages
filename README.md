@@ -8,8 +8,7 @@
 
 #### Step 2. Run the following command in the parent directory of the folder you need to compress:
 ```cmd
+cd [path\to\parentfolder]
 7z -ttar a dummy %cd%\* -so | 7z -si -tgzip a [name of file].tgz
 7z -ttar a dummy %cd%\* -so | 7z -si -tgzip a Timeshow.tgz
 ```
-
-#### Voila !!! It's done.
