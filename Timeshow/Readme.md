@@ -17,3 +17,7 @@ Custom\Timeshow\TimeshowServiceProvider::class,
 composer dump-autoload -o
 php artisan serve
 ```
+##### OR
+```cmd
+composer dump-autoload -o & php artisan serve
+```
