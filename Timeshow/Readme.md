@@ -1,6 +1,6 @@
 ### Installation Instructions
 
-#### Step 1. Extract the tar.gz file and copy the packages folder to your Laravel root directory and merge if asks.
+#### Step 1. Extract the "Timeshow.tgz" file and copy the packages folder to your Laravel root directory and merge if asks.
 
 #### Step 2. Add the below line to your main composer.json file under "autoload" > "psr-4" section and make sure no syntax errors.
 ```json
