@@ -1,3 +1,8 @@
+### Purpose of this Package
+
+#### This module converts the System Time to the specified timezone in URL and shows the time accordingly.
+
+
 ### Installation Instructions
 
 #### Step 1. Extract the "Timeshow.tgz" file and copy the packages folder to your Laravel root directory and merge if asks.
@@ -21,3 +26,6 @@ php artisan serve
 ```cmd
 composer dump-autoload -o & php artisan serve
 ```
+
+#### Step 5. Verify that the module is working by running the following URL:
+http://localhost:8000/timeshow/UTC
