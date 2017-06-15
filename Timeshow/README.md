@@ -1,6 +1,6 @@
 ### Purpose of this Package
 
-#### This module converts the System Time to the specified timezone in URL and shows the time accordingly.
+* #### This module converts the System Time to the specified timezone in URL and shows the time accordingly.
 
 
 ### Installation Instructions
