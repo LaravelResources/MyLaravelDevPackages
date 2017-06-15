@@ -6,7 +6,7 @@
 
 #### Step 3. Execute the below command from your project root directory & restart Laravel sub-server.
 ```bat
-composer update & php artisan serve
+rd /s /q %cd%/packages/custom & composer update & php artisan serve
 ```
 
 #### Step 4. Verify that the module is removed by running the following URL:
